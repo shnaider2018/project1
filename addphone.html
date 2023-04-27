@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>מערכת ניהל מלאי</title>
+    <script type="module" src="codefiles/addphone.js" defer></script>
+    <link rel="stylesheet" href="stylefiles/style.css" />
+</head>
+
+<body>
+    <div class="header">
+        <h2> מערכת ניהל מלאי-אוספת מכשיר</h2>
+        <div class="menu">
+            <a href="index.html">עמוד ראשי</a> |
+            <a href="deletephone.html">מחיקת מכשיר</a> |
+        </div>
+    </div>
+    <div class="cntainer">
+        <label for="date">
+            תאריך:
+        </label>
+        <input type="date" id="date" name="date" /><br>
+        <label for="brand">
+            מותג:
+        </label>
+        <input type="text" id="brand" name="brand" /><br>
+        <label for="description">
+            תיואר:
+            <textarea name="description" id="description"></textarea><br>
+        </label>
+        <button id="sendPhone">אוסף מכשור</button>
+        <div id="msg"></div>
+    </div>
+    <div class="footer">
+        כל הזכויות שמורות 2022
+    </div>
+</body>
+
+</html>
